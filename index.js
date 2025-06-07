@@ -10,7 +10,8 @@ function scuberGreetingForFeet(riderDistance){
   } 
   else {
     return 'No can do.';
-  } 
+  } // <-- This closing brace was missing
+}
 
 function ternaryCheckCity(city){
   return city === 'NYC' ? 'Ok, sounds good.' : 'No go.';
